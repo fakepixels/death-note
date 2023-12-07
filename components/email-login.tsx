@@ -60,16 +60,15 @@ export default function EmailSignIn() {
                     display: "inline-flex",
                     alignItems: "center",
                     justifyContent: "center",
-                    backgroundColor: "RoyalBlue",
+                    backgroundColor: "Black",
                     color: "#FFF",
-                    border: "1px solid RoyalBlue",
                     borderRadius: "8px",
                 }}
             >
                 Verify
             </button>
             <a onClick={() => setState("init")}>
-                <p style={{ color: "royalblue", cursor: "pointer", textAlign: "center" }}>Go Back</p>
+                <p style={{ color: "black", cursor: "pointer", textAlign: "center" }}>Go Back</p>
             </a>
             </>
     );
@@ -101,9 +100,9 @@ export default function EmailSignIn() {
                     display: "inline-flex",
                     alignItems: "center",
                     justifyContent: "center",
-                    backgroundColor: "RoyalBlue",
+                    backgroundColor: "Black",
                     color: "#FFF",
-                    border: "1px solid RoyalBlue",
+                    border: "1px solid #CCC",
                     borderRadius: "8px",
                 }}
                 onClick={handleEmailEntered}
